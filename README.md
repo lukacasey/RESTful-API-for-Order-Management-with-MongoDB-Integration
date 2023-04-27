@@ -7,4 +7,5 @@ Enter...
 	"password": "mypassword"
 }
 
-... to "/api/login" to receive Json Web Token (JWT). Then, when sending a GET request to "/api/orders", use Authorization as the header name and in the value field type "Bearer <JWT>"
+... to "/api/login" to receive Json Web Token (JWT). Then, when sending a GET request to "/api/orders", 
+use "Authorization" as the header name and in the value field type "Bearer <JWT>"
